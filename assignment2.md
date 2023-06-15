@@ -6,5 +6,7 @@ permalink: /assignment2
     <head>
         <title>Assignment 2</title>
     </head>
-    <p>Hi Guys!</p>
+    <body>
+        <p>Hi Guys!</p>
+    </body>
 </html>
