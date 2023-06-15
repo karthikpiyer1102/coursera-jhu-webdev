@@ -1,1 +1,3 @@
-2nd Assignment of the course.
+layout: page
+title: "Assignment 2"
+permalink: /assignment2
