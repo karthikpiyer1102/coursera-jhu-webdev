@@ -59,6 +59,7 @@ a:link, a:visited {
       margin-right: 1%;
       margin-left: 1%;
     }
+}
 
 @media (max-width: 767px) {
     div.container {
