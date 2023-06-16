@@ -3,18 +3,20 @@
     <title>Hello Coursera!</title>
     <style>
         * {
+            background-color: gray;
             box-sizing: border-box;
             margin: 0;
             padding: 0;
           }
         
         
-        #hi {
+        #heading {
+         margin: 8px;
          margin-bottom: 15px;
          color: blue;
         }
 
-        #container {
+        .container {
          position: absolute;
          margin: 0px;
          background-color: aqua;
@@ -22,19 +24,31 @@
          border: 5px solid black;
         }
 
-        #content {
+        .content {
          background-color: greenyellow;
          text-align: center;
         }
 
+        a {
+          background-color: greenyellow;
+        }
+
+        a:link, a:visited {
+          text-decoration: none;
+          color: black;
+        }
+        
+        a:hover {
+          background-color: red;
+        }
 
     </style>
   </head>
   <body>
-    <h1 id="hi">Hello Coursera!</h1>
-    <div id="container">
-      <div id="content">
-        <p><a href="https://karthikpiyer1102.github.io/coursera-jhu-webdev/assignment2">Assignment: Week 2</a></p>
+    <h1 id="heading">Hello Coursera!</h1>
+    <div class="container">
+      <div class="content">
+        <a href="https://karthikpiyer1102.github.io/coursera-jhu-webdev/assignment2">Assignment: Week 2</a>
       </div>
     </div>
   </body>
