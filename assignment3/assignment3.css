@@ -9,3 +9,11 @@ body {
     border: 0;
     background-color: #7aa167;
 }
+
+section {
+    margin: 5px;
+}
+
+div.navbar-header h1 {
+    margin-left: 10px;
+}
