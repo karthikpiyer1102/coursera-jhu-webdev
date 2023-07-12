@@ -52,7 +52,7 @@ for (var name of names) {
   // to lower case character 'j' afterwards.
   // Look up these methods on Mozilla Developer Network web site if needed.
   var firstLetter = name.charAt(0);
-  console.log(firstLetter);
+
 
   // STEP 12:
   // Compare the 'firstLetter' retrieved in STEP 11 to lower case
