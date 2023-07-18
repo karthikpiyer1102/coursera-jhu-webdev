@@ -1,8 +1,5 @@
-* {
-    background-color: gray;
+/* * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     font-family: cursive;
 }
 
@@ -13,20 +10,13 @@
     color: blue;
 }
 
-.container {
-    position: relative;
-    margin: 0px;
+.container-fluid {
     background-color: aqua;
     padding: 5px;
     border: 5px solid black;
-    margin-bottom: 10px;
 }
 
-.content {
-    background-color: greenyellow;
-    text-align: center;
-    font-weight: bold;
-}
+
 
 a {
     background-color: greenyellow;
@@ -44,28 +34,10 @@ a:link, a:visited {
 
 .content:hover > a {
     background-color: transparent;
-}
+} */
 
-@media (min-width: 992px) {
-    div.container {
-      width: 98%;
-      margin-right: 1%;
-      margin-left: 1%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    div.container {
-      width: 98%;
-      margin-right: 1%;
-      margin-left: 1%;
-    }
-}
-
-@media (max-width: 767px) {
-    div.container {
-      width: 98%;
-      margin-right: 1%;
-      margin-left: 1%;
-    }
+.content {
+    background-color: greenyellow;
+    text-align: center;
+    font-weight: bold;
 }
