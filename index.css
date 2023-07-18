@@ -1,4 +1,4 @@
-/* * {
+* {
     box-sizing: border-box;
     font-family: cursive;
 }
@@ -16,7 +16,11 @@
     border: 5px solid black;
 }
 
-
+.content {
+    background-color: greenyellow;
+    text-align: center;
+    font-weight: bold;
+}
 
 a {
     background-color: greenyellow;
@@ -34,10 +38,4 @@ a:link, a:visited {
 
 .content:hover > a {
     background-color: transparent;
-} */
-
-.content {
-    background-color: greenyellow;
-    text-align: center;
-    font-weight: bold;
 }
